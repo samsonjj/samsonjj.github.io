@@ -3,4 +3,4 @@ layout: post
 title: Rust Progress
 ---
 
-I have read up to 1.1 in the Rust Book 😐
+I have read up to 3.3 in the Rust Book 😐
