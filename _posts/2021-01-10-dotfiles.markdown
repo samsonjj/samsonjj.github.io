@@ -1,0 +1,10 @@
+---
+layout: post
+title: Dotfiles
+---
+
+I am backing up my dotfiles, like .zshenv, .zshrc, etc. to github in a private repository. I know there are many implementations out there at the moment for this, but I created my own python script to do it for me. Checkout [https://github.com/samsonjj/dotfiles](https://github.com/samsonjj/dotfiles). This file can be kept right inside of the git repository, so the script, its configuration, and all dotfiles for backup are kept in the same folder.
+
+Future work:
+1) Use simlinks instead of manually copying all the files at the same time.
+2) Configure things like file list and repository location in an external config file.
