@@ -12,12 +12,12 @@ Tech
 * Go 
 * Rust
 * WASM
-* cryptography
-* Python ML
+* Julia
 * Vim
 
 Academia
-* cryptography
+* Cryptography
+* Machine Learning
 
 Non-Tech
 * Japanese
@@ -25,3 +25,5 @@ Non-Tech
 These topics I am saying NO to (outside of work). Maybe another time...
 
 * Monitoring (Splunk, Datadog)
+* React
+* Angular
