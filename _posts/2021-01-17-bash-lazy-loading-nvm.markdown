@@ -11,7 +11,7 @@ For example, running `!cargo build` inside of Vim, causes vim to essentially run
 
 2) Initializing nvm is slow
 
-Admittedly, this makes sense. But it was running every time I ran a Vim command, causing the commands to be slow. Moving the nvm initialization stuff to .zprofile fixed my current issue, but now I feel like making my logins fatser as well. We can lady load nvm by creating a function which wraps nvm, and only loads nvm on the first call.
+Admittedly, this makes sense. But it was running every time I ran a Vim command, causing the commands to be slow. Moving the nvm initialization stuff to .zprofile fixed my current issue, but now I feel like making my logins fatser as well. We can lazy load nvm by creating a function which wraps nvm, and only loads nvm on the first call.
 
 ```
 # .zprofile
